@@ -1,0 +1,14 @@
+package com.innovarit.algorithms.simplelinkedlists;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class LinkedListManagerTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

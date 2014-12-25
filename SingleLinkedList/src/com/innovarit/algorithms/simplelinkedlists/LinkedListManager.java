@@ -95,4 +95,15 @@ public class LinkedListManager {
 		return headNode;
 	}
 	
+	void printLinkedList (ListNode head){
+		
+		int count = 1;
+		while (head != null){
+			System.out.print(head.getData());
+			System.out.print(",");
+			count++;
+			head = head.getNext();
+		}
+	}
+	
 }

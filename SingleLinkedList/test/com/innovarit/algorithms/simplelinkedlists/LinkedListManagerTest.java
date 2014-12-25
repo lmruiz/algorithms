@@ -30,5 +30,8 @@ public class LinkedListManagerTest {
 		ListNode nodeToInsert3 = new ListNode(3);
 		headNode=linkedListManager.insertInLinkedList(headNode, nodeToInsert3, 1);
 		assertEquals(3,linkedListManager.listLength(headNode));
+		
+		linkedListManager.printLinkedList(headNode);
 	}
+	
 }

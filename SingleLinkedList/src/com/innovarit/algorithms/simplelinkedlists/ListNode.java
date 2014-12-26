@@ -1,5 +1,10 @@
 package com.innovarit.algorithms.simplelinkedlists;
 
+/**
+ * Base Node for sinlge linked list
+ * @author luisruiz
+ *
+ */
 public class ListNode {
 	private int data;
 	private ListNode next;
